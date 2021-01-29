@@ -1,0 +1,19 @@
+{
+  "endpoint": {
+    "url": null,
+    "credentials": {
+      "appKey": null,
+      "appSecret": null
+    }
+  },
+  "settings": {
+    "actions": {
+      "send_emails": {
+        "title": "Send Emails",
+        "url": "{{base_url}}/api/send_emails",
+        "method": "POST",
+        "usesAuth": true
+      }
+    }
+  }
+}
